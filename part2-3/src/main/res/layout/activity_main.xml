@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hyeon.part2_3.MainActivity">
+
+    <TextView
+        android:id = "@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가나다라 http://www.google.com 마바사 a@a.com 아자차카타 1234-5678"
+        android:autoLink = "web|email|phone" />
+
+</android.support.constraint.ConstraintLayout>
