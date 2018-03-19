@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id = "@+id/myLinearLayout"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background="#00ffaa"
+    android:orientation = "vertical"
+    android:padding = "6dp">
+    <!--<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:background="#ff00aa"
+        android:orientation = "horizontal"
+        android:padding = "6dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff00"
+        android:text = "텍스트"
+        android:textColor = "#ffff0000"
+        android:textSize = "24dp"
+        android:padding = "20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff00fff"
+        android:text = "텍스트"
+        android:textColor = "#ff0000ff"
+        android:textSize = "24dp"
+        android:layout_margin = "40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff55"
+        android:text = "텍스트"
+        android:textColor = "#ffaabb"
+        android:textSize = "24dp"
+        android:padding = "10dp"
+        android:layout_margin = "20dp" />
+    </LinearLayout>-->
+   <!-- <Button
+        android:id = "@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "left"
+        android:text= "left"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="center" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="right" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding = "10px"
+        android:layout_marginTop="10px">
+
+        <TextView
+            android:id = "@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff0077"
+            android:text = "Type here: "/>
+
+        <EditText
+            android:id = "@+id/entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label"
+            android:hint = "이곳에 입력하세요"/>
+
+        <Button
+            android:id = "@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/entry"
+            android:layout_alignParentRight = "true"
+            android:layout_marginLeft = "10px"
+            android:text = "OK"/>
+
+        <Button
+            android:text = "Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf = "@+id/ok"
+            android:layout_alignTop = "@+id/ok"/>
+    </RelativeLayout>
+
+    <FrameLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:id = "@+id/container"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/android"
+            android:minWidth= "300dp"
+            android:minHeight = "300dp"
+            android:adjustViewBounds="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Print Picture"/>
+    </FrameLayout>
+    <TableLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width = "match_parent"
+        android:layout_height= "wrap_content"
+        android:background="#8C8C8C"
+        android:stretchColumns = "*"
+        android:layout_marginTop = "24dp">
+        <TableRow>
+            <TextView android:text = "Open..."
+                android:padding = "3dip" />
+            <TextView android:text = "Ctrl-o"
+                android:gravity = "right"
+                android:padding = "3dip"></TextView>
+        </TableRow>
+        <TableRow>
+            <TextView android:text = "Save As..."
+                android:padding = "3dip" />
+            <TextView android:text = "Ctrl-Shift-S"
+                android:gravity = "right"
+                android:padding = "3dip" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id = "@+id/container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "6dp">
+
+        <TableRow>
+            <TextView
+                android:background="#FF33B5E5"
+                android:text = "Name "/>
+            <TextView
+                android:layout_marginLeft = "5dp"
+                android:background= "#FF33B5E5"
+                android:text = "Age "/>
+            <TextView
+                android:layout_marginLeft = "5dp"
+                android:background = "#FF33B5E5"
+                android:text = "Phone "/>
+        </TableRow>
+
+        <View
+            android:layout_height= "1dp"
+            android:background="#FF33B5E5"/>
+        <View
+            android:layout_height= "1dp"
+            android:background="#FF33B5E5"/>
+        <TableLayout>
+            <TableRow>
+                <TextView
+                     android:text = "Jung"/>
+                <TextView
+                    android:layout_marginLeft = "15dp"
+                    android:text = "26"/>
+                <TextView
+                    android:layout_marginLeft = "15dp"
+                    android:text = "01085849375"/>
+                <Button
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:text = "Call"
+                    android:layout_marginLeft = "20dp"/>
+            </TableRow>
+        </TableLayout>
+        <View
+            android:layout_height= "1dp"
+            android:background="#FF33B5E5"/>
+        <View
+            android:layout_height= "1dp"
+            android:background="#FF33B5E5"/>
+    </TableLayout>
+</LinearLayout>
