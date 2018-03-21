@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if(keyCode==KeyEvent.KEYCODE_BACK){
-            if(System.currentTimeMillis() - initTime > 3000){
+            if(System.currentTimeMillis() - initTime > 4000){
                 showToast("종료하려면 한번 더 누르세요.");
                 initTime=System.currentTimeMillis();
             }else {
