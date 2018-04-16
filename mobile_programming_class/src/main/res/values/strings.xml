@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Mobile_Programming_Class</string>
-    <string name = "hello_there">Hello World!</string>
-    <string name = "Enter_your_First_and_Last_name">Enter your First and Last name</string>
-    <string name = "ACME_Corp_Caption">Login</string>
+    <string name="hello_there">Hello World!</string>
+    <string name="Enter_your_First_and_Last_name">Enter your First and Last name</string>
+    <string name="ACME_Corp_Caption">Login</string>
 </resources>

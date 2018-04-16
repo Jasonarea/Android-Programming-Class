@@ -8,9 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/HelloWorld" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fragmentpractice" />
             <option value="$PROJECT_DIR$/gmailapi" />
             <option value="$PROJECT_DIR$/lab1" />
+            <option value="$PROJECT_DIR$/lab2" />
             <option value="$PROJECT_DIR$/lab_1" />
             <option value="$PROJECT_DIR$/mobile_programming_class" />
             <option value="$PROJECT_DIR$/part2-3" />
