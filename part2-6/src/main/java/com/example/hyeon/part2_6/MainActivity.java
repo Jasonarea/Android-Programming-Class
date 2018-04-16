@@ -26,28 +26,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //id 값 받기
         bellTextView = (TextView)findViewById(R.id.bell_name);
         labelTextVeiw=(TextView)findViewById(R.id.label);
         repeatCheckView=(CheckBox)findViewById(R.id.repeatCheck);
         vibrateCheckView=(CheckBox)findViewById(R.id.vibrate);
         switchView=(Switch)findViewById(R.id.onOff);
-
+        //onClickListener event 등록하기
         bellTextView.setOnClickListener(this);
         labelTextVeiw.setOnClickListener(this);
-
+        //onCheckedChangedListener event 등록하기
         repeatCheckView.setOnCheckedChangeListener(this);
         vibrateCheckView.setOnCheckedChangeListener(this);
         switchView.setOnCheckedChangeListener(this);
     }
 
 
-
+    // Toast 출력해주는 function
     private void showToast(String message){
         Toast toast=Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.show();
     }
 
+    // button 클릭 이벤트 구현
     @Override
     public void onClick(View v) {
         if(v==bellTextView){
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             showToast("label text click event...");
         }
     }
-
+    // checkbox 또는 switchView 체크 변경 이벤트 구현
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         if(buttonView==repeatCheckView){
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             showToast("switch is "+isChecked);
         }
     }
-
+    // 터치 이벤트 구현
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         if(event.getAction() == MotionEvent.ACTION_DOWN) {
