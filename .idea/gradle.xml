@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/gmailapi" />
             <option value="$PROJECT_DIR$/lab1" />
             <option value="$PROJECT_DIR$/lab2" />
+            <option value="$PROJECT_DIR$/lab3" />
             <option value="$PROJECT_DIR$/lab_1" />
             <option value="$PROJECT_DIR$/mobile_programming_class" />
             <option value="$PROJECT_DIR$/part2-3" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/part2-7" />
             <option value="$PROJECT_DIR$/part3-8" />
             <option value="$PROJECT_DIR$/part3-9" />
+            <option value="$PROJECT_DIR$/web_listview_practice" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
