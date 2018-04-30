@@ -1,5 +1,6 @@
 package com.example.hyeon.lab3;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ public class Lab3_1 extends AppCompatActivity {
 
         mBtn = (Button) findViewById(R.id.button);
         registerForContextMenu(mBtn);   // menubutton event register
+
     }
 
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
