@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidLab.iml" filepath="$PROJECT_DIR$/AndroidLab.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentpractice/fragmentpractice.iml" filepath="$PROJECT_DIR$/fragmentpractice/fragmentpractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmailapi/gmailapi.iml" filepath="$PROJECT_DIR$/gmailapi/gmailapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
