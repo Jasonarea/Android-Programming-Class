@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/part2-7/part2-7.iml" filepath="$PROJECT_DIR$/part2-7/part2-7.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3-8/part3-8.iml" filepath="$PROJECT_DIR$/part3-8/part3-8.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3-9/part3-9.iml" filepath="$PROJECT_DIR$/part3-9/part3-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_listview_practice/web_listview_practice.iml" filepath="$PROJECT_DIR$/web_listview_practice/web_listview_practice.iml" />
     </modules>
   </component>
