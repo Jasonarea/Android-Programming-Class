@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 textview.setText("스레드에서 받은 값: " + value);
             }
-        }
+        });
     }
     @Override
     protected void onResume() {
