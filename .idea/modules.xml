@@ -3,17 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidLab.iml" filepath="$PROJECT_DIR$/AndroidLab.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db_practice/db_practice.iml" filepath="$PROJECT_DIR$/db_practice/db_practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentpractice/fragmentpractice.iml" filepath="$PROJECT_DIR$/fragmentpractice/fragmentpractice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gmailapi/gmailapi.iml" filepath="$PROJECT_DIR$/gmailapi/gmailapi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab2/lab2.iml" filepath="$PROJECT_DIR$/lab2/lab2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab4/lab4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab_1/lab_1.iml" filepath="$PROJECT_DIR$/lab_1/lab_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile_programming_class/mobile_programming_class.iml" filepath="$PROJECT_DIR$/mobile_programming_class/mobile_programming_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimedia/multimedia.iml" filepath="$PROJECT_DIR$/multimedia/multimedia.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2-3/part2-3.iml" filepath="$PROJECT_DIR$/part2-3/part2-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2-4/part2-4.iml" filepath="$PROJECT_DIR$/part2-4/part2-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2-5/part2-5.iml" filepath="$PROJECT_DIR$/part2-5/part2-5.iml" />
